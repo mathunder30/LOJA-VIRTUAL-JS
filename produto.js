@@ -1,4 +1,4 @@
-class Produto {
+ class Produto {
     nome;
     preco;
     quantidade;
@@ -13,3 +13,6 @@ class Produto {
         return `nome: ${this.nome}, preço: ${this.preco}, quantidade: ${this.quantidade}`;
     }
 }
+
+const macarrao = new Produto("macarrao", 2.33,2);
+console.log(macarrao.MostrarProduto());
