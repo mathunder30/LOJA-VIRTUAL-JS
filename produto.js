@@ -14,5 +14,5 @@
     }
 }
 
-const macarrao = new Produto("macarrao", 2.33,2);
-console.log(macarrao.MostrarProduto());
+
+module.exports = Produto;

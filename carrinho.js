@@ -1,32 +1,33 @@
-class Carrinho{
-    item;
-    adicionar;
+const Produto = require('./produto.js');;
 
-    constructor(adicionar){
-        this.item = []; 
-        this.adicionar = adicionar;
-    }
-
-    AdicionarCarrinho(quantidade){
-        this.adicionar = this.item.push(quantidade);
-        }
-}
-
-class Produto {
-    nome;
-    preco;
-    quantidade;
+class Carrinho extends Produto{
+    itens;
 
     constructor(nome, preco, quantidade){
-        this.nome = nome;
-        this.preco = preco;
-        this.quantidade = quantidade;
+        super (nome, preco, quantidade);
+        this.itens = [];
     }
 
-    MostrarProduto(){
-        return `nome: ${this.nome}, preço: ${this.preco}, quantidade: ${this.quantidade}`;
+    AdicionarCarrinho(item){
+       this.itens.push(item);
+      
+       console.log(`O ${item.nome} adicionado com sucesso`)        
     }
+    
+
+    mostrarItensAtualizados() {
+        console.log("Itens da lista: ");
+        if (this.itens.length === 0) {
+            console.log("A lista está vazia");
+        } else {
+            this.itens.forEach(item => {
+                console.log("Exibir item", item);
+                item.MostrarProduto();
+            });
+        }
+   
+    
 }
 
-const macarrao = new Carrinho(2);
-console.log(macarrao.AdicionarCarrinho());
+}
+module.exports = Carrinho;
