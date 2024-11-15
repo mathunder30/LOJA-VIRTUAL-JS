@@ -10,3 +10,4 @@ lista.AdicionarCarrinho(produto1);
 lista.AdicionarCarrinho(produto2);
 lista.AdicionarCarrinho(produto3);
 lista.mostrarItensAtualizados();
+lista.SomaQuantidade();
