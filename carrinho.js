@@ -11,17 +11,17 @@ class Carrinho extends Produto{
     AdicionarCarrinho(item){
        this.itens.push(item);
       
-       console.log(`O ${item.nome} adicionado com sucesso`)        
+       console.log(`O ${item.nome} adicionado com sucesso! :)`)        
     }
     
 
     mostrarItensAtualizados() {
         console.log("Itens da lista: ");
         if (this.itens.length === 0) {
-            console.log("A lista está vazia");
+            console.log("Sua lista está vazia! :/");
         } else {
             this.itens.forEach(item => {
-                console.log("Exibir item", item);
+                console.log( item);
                 item.MostrarProduto();
             });
         }
