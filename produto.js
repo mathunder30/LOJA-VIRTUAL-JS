@@ -10,7 +10,7 @@
     }
 
     MostrarProduto(){
-        return `nome: ${this.nome}, preço: ${this.preco}, quantidade: ${this.quantidade}`;
+        console.log(`\n nome: ${this.nome} \n preço: ${this.preco} \n quantidade: ${this.quantidade}`);
     }
 }
 
