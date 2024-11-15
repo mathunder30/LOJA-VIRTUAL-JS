@@ -12,7 +12,7 @@ class Carrinho extends Produto{
     AdicionarCarrinho(item){
        this.itens.push(item);
       
-       console.log(`O item ${item.nome} adicionado com sucesso! :)`)        
+       console.log(`O produto ${item.nome} foi adicionado com sucesso! :)`)        
     }
     
 
