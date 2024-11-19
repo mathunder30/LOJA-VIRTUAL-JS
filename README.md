@@ -1,6 +1,6 @@
-# Carrinho de Compras Simples em Node.js
+# Carrinho de Compras Simples em JavaScript
 
-Este projeto é uma implementação básica de um sistema de carrinho de compras utilizando Node.js e conceitos de programação orientada a objetos (POO). Ele inclui funcionalidades para adicionar produtos ao carrinho, atualizar, deletar e exibir os itens, além de calcular o total de preços e quantidades.
+Este projeto é uma implementação básica de um sistema de carrinho de compras utilizando JavaScript e conceitos de programação orientada a objetos (POO). Ele inclui funcionalidades para adicionar produtos ao carrinho, atualizar, deletar e exibir os itens, além de calcular o total de preços e quantidades.
 
 ## Estrutura do Projeto
 
