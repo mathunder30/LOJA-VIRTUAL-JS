@@ -12,15 +12,13 @@ lista.AdicionarCarrinho(produto1);
 lista.AdicionarCarrinho(produto2);
 lista.AdicionarCarrinho(produto3);
 
-//READ
-lista.MostrarProduto();
+
 
 lista.SomaQuantidade();
 lista.SomaPreco();
 
-// UPTATE
 lista.AtualizarProdutoNome(2,"Book");
 
-//DELETE
-lista.deletarProduto(1);
+
+lista.deletarProduto(3);
 lista.mostrarItensAtualizados();
