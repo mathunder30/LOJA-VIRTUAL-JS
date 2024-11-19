@@ -44,4 +44,4 @@ Classe responsável por gerenciar o carrinho de compras.
 ### Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/carrinho-de-compras.git
+   git clone [https://github.com/seu-usuario/carrinho-de-compras.git](https://github.com/mathunder30/loja_virtual_js/tree/main)
