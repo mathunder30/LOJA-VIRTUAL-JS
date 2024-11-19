@@ -3,8 +3,8 @@ class Livro extends Produto {
     autor;
     nome_livro;
 
-    constructor(nome, preco, quantidade, autor, nome_livro){
-        super(nome, preco, quantidade)
+    constructor(nome, preco, quantidade, id, autor, nome_livro){
+        super(nome, preco, quantidade, id)
         this.autor = autor;
         this.nome_livro = nome_livro;
     }

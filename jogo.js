@@ -3,8 +3,8 @@ class Jogo extends Produto {
     nome_jogo;
     console;
 
-    constructor(nome, preco, quantidade, nome_jogo, console){
-        super(nome, preco, quantidade);
+    constructor(nome, preco, quantidade, id, nome_jogo, console){
+        super(nome, preco, quantidade, id);
         this.nome_jogo = nome_jogo;
         this.console = console;
     }
